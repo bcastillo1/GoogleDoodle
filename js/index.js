@@ -1,0 +1,1 @@
+$('svg').animate('animated bounce');

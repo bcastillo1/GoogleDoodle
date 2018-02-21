@@ -1,0 +1,29 @@
+// External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+
+/* Doodle Stage */
+#stage {
+  background: white;
+  height: 300px;
+  width: 600px;
+  position:relative;
+  
+  // Hide Overflowing Elements
+  overflow: hidden;
+}
+  // Relative Parent
+ 
+
+// Absolute Children
+
+svg {
+  position: absolute;
+  margin-left:200px;
+  height: 200px;
+  animation-name: pulse, fadeInOut, moveLeft20px, bounce;
+animation-duration: 6s;
+animation-iteration-count: infinate;
+}
+
+@keyframes pulse {
+  from { left: 0; } to { left: 620px; }
+}

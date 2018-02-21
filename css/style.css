@@ -1,0 +1,38 @@
+/* Doodle Stage */
+#stage {
+  background: white;
+  height: 300px;
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+svg {
+  position: absolute;
+  margin-left: 200px;
+  height: 200px;
+  -webkit-animation-name: pulse, fadeInOut, moveLeft20px, bounce;
+          animation-name: pulse, fadeInOut, moveLeft20px, bounce;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinate;
+          animation-iteration-count: infinate;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    left: 0;
+  }
+  to {
+    left: 620px;
+  }
+}
+
+@keyframes pulse {
+  from {
+    left: 0;
+  }
+  to {
+    left: 620px;
+  }
+}
